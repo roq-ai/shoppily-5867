@@ -1,0 +1,2022 @@
+[
+  {
+    "shop": [
+      {
+        "id": "19b2a891-6b6c-48a2-aecd-8dc20bae4839",
+        "name": "The Fashion Spot",
+        "description": "A trendy fashion store",
+        "created_at": "2023-08-06T10:59:03.349Z",
+        "updated_at": "2023-08-06T12:46:00.517Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "092927fc-8541-4192-b310-7ba539b50525",
+        "name": "Home Decor Haven",
+        "description": "Find the perfect home decor items",
+        "created_at": "2023-08-05T20:45:12.108Z",
+        "updated_at": "2023-08-06T08:01:45.688Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "227d36ed-9ec8-4176-aefe-33507ebdd1fe",
+        "name": "Gourmet Delights",
+        "description": "Delicious gourmet food products",
+        "created_at": "2023-08-06T02:28:33.222Z",
+        "updated_at": "2023-08-06T16:16:48.744Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "20f62f73-9a59-417f-9021-c042835c4f17",
+        "name": "Tech World",
+        "description": "Explore the latest tech gadgets",
+        "created_at": "2023-08-06T08:57:04.614Z",
+        "updated_at": "2023-08-06T07:13:58.809Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "9e113fa0-3ffa-4347-b94a-561141291bf6",
+        "name": "Sports Zone",
+        "description": "Get your sports gear here",
+        "created_at": "2023-08-06T07:24:19.119Z",
+        "updated_at": "2023-08-06T07:10:51.889Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "ccb99904-c643-42d6-a399-677de204db85",
+        "name": "Stylish Watch",
+        "description": "A fashionable accessory for any occasion",
+        "price": 79453,
+        "created_at": "2023-08-05T22:57:11.234Z",
+        "updated_at": "2023-08-06T09:53:25.508Z",
+        "shop_id": "9e113fa0-3ffa-4347-b94a-561141291bf6"
+      },
+      {
+        "id": "9bc2a3c2-7daf-4fd8-a50f-74ea0587fdc3",
+        "name": "Cozy Blanket",
+        "description": "Stay warm and comfortable with this soft blanket",
+        "price": 24329,
+        "created_at": "2023-08-06T07:44:09.228Z",
+        "updated_at": "2023-08-06T11:27:50.629Z",
+        "shop_id": "092927fc-8541-4192-b310-7ba539b50525"
+      },
+      {
+        "id": "0a419fac-8e54-4795-8b94-05bd9e36a40a",
+        "name": "Gourmet Coffee",
+        "description": "Indulge in the rich flavors of this premium coffee",
+        "price": 3884,
+        "created_at": "2023-08-05T19:52:18.483Z",
+        "updated_at": "2023-08-06T13:30:58.335Z",
+        "shop_id": "19b2a891-6b6c-48a2-aecd-8dc20bae4839"
+      },
+      {
+        "id": "31d97a5e-9a68-4b65-8a5a-cbc10b4e2ee5",
+        "name": "Smartphone",
+        "description": "Experience the latest technology with this smartphone",
+        "price": 89010,
+        "created_at": "2023-08-05T22:45:24.294Z",
+        "updated_at": "2023-08-06T05:42:10.847Z",
+        "shop_id": "9e113fa0-3ffa-4347-b94a-561141291bf6"
+      },
+      {
+        "id": "b7fd345e-6572-45eb-a4c3-5000fb33153d",
+        "name": "Sports Shoes",
+        "description": "Enhance your performance with these high-quality sports shoes",
+        "price": 89019,
+        "created_at": "2023-08-05T23:26:46.939Z",
+        "updated_at": "2023-08-06T10:06:56.555Z",
+        "shop_id": "20f62f73-9a59-417f-9021-c042835c4f17"
+      }
+    ],
+    "rating": [
+      {
+        "id": "8c83ea19-f0ae-4661-ac72-187461ccb9a6",
+        "score": 262,
+        "created_at": "2023-08-06T14:00:57.367Z",
+        "updated_at": "2023-08-06T09:27:21.556Z",
+        "product_id": "b7fd345e-6572-45eb-a4c3-5000fb33153d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f59e4ae-6440-455a-9583-3bd310c41bd5",
+        "score": 13326,
+        "created_at": "2023-08-06T07:44:57.429Z",
+        "updated_at": "2023-08-06T14:26:08.092Z",
+        "product_id": "b7fd345e-6572-45eb-a4c3-5000fb33153d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15676367-8979-45be-8912-c7cf5032535b",
+        "score": 62620,
+        "created_at": "2023-08-06T04:46:24.672Z",
+        "updated_at": "2023-08-06T05:46:34.403Z",
+        "product_id": "31d97a5e-9a68-4b65-8a5a-cbc10b4e2ee5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "63d6ad72-20c0-4c07-8bb6-9aa74363088b",
+        "score": 3217,
+        "created_at": "2023-08-06T16:07:42.277Z",
+        "updated_at": "2023-08-06T14:51:18.633Z",
+        "product_id": "9bc2a3c2-7daf-4fd8-a50f-74ea0587fdc3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77092930-66d7-4041-b0ff-27394d886cd0",
+        "score": 13246,
+        "created_at": "2023-08-06T07:21:53.907Z",
+        "updated_at": "2023-08-06T09:18:04.021Z",
+        "product_id": "9bc2a3c2-7daf-4fd8-a50f-74ea0587fdc3",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "ea60152f-6145-423a-8248-ce5ee0714a19",
+        "created_at": "2023-08-05T21:19:48.398Z",
+        "updated_at": "2023-08-06T01:21:02.876Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eafac3d5-16af-4f18-85dd-6458e3847bb4",
+        "created_at": "2023-08-06T11:09:40.189Z",
+        "updated_at": "2023-08-06T06:12:36.359Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89e3ef53-d7bf-4fa8-8451-71c1225c3dce",
+        "created_at": "2023-08-05T20:05:06.381Z",
+        "updated_at": "2023-08-05T22:45:02.907Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e5812e1-6d60-4d8c-9a2c-26cc69b89034",
+        "created_at": "2023-08-06T05:34:13.614Z",
+        "updated_at": "2023-08-06T12:44:42.793Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6940c14-e5ae-43b6-bd99-05c6f1d5ae72",
+        "created_at": "2023-08-06T14:42:43.139Z",
+        "updated_at": "2023-08-06T03:17:05.152Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "556a0bad-f606-4f4f-abda-4f19e9edb1f3",
+        "created_at": "2023-08-05T17:00:35.880Z",
+        "updated_at": "2023-08-06T01:10:13.296Z",
+        "cart_id": "eafac3d5-16af-4f18-85dd-6458e3847bb4",
+        "product_id": "b7fd345e-6572-45eb-a4c3-5000fb33153d"
+      },
+      {
+        "id": "d36730b7-ec7e-4606-b164-f79bbfe2f5a9",
+        "created_at": "2023-08-06T03:14:27.062Z",
+        "updated_at": "2023-08-06T14:14:50.253Z",
+        "cart_id": "6e5812e1-6d60-4d8c-9a2c-26cc69b89034",
+        "product_id": "0a419fac-8e54-4795-8b94-05bd9e36a40a"
+      },
+      {
+        "id": "799942f5-fad1-449c-bb23-313f41eb5db5",
+        "created_at": "2023-08-06T08:58:15.774Z",
+        "updated_at": "2023-08-05T17:41:06.466Z",
+        "cart_id": "ea60152f-6145-423a-8248-ce5ee0714a19",
+        "product_id": "31d97a5e-9a68-4b65-8a5a-cbc10b4e2ee5"
+      },
+      {
+        "id": "9b12e409-fbb4-415f-aa5a-d6d251f3cfbf",
+        "created_at": "2023-08-06T09:26:57.533Z",
+        "updated_at": "2023-08-06T14:14:08.292Z",
+        "cart_id": "a6940c14-e5ae-43b6-bd99-05c6f1d5ae72",
+        "product_id": "ccb99904-c643-42d6-a399-677de204db85"
+      },
+      {
+        "id": "f9ca856c-55bf-4290-80a6-7c891fa82236",
+        "created_at": "2023-08-05T19:03:12.266Z",
+        "updated_at": "2023-08-06T07:43:09.076Z",
+        "cart_id": "6e5812e1-6d60-4d8c-9a2c-26cc69b89034",
+        "product_id": "0a419fac-8e54-4795-8b94-05bd9e36a40a"
+      }
+    ]
+  },
+  {
+    "shop": [
+      {
+        "id": "0cfbb5ca-7584-498c-87e3-d8c58aba7fa6",
+        "name": "The Fashion Spot",
+        "description": "A trendy fashion store",
+        "created_at": "2023-08-06T07:01:50.792Z",
+        "updated_at": "2023-08-06T15:48:22.843Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "0d9dc91e-9f12-4921-9d89-7e520836b0a4",
+        "name": "Home Decor Haven",
+        "description": "Find the perfect home decor items",
+        "created_at": "2023-08-06T12:16:20.838Z",
+        "updated_at": "2023-08-05T23:34:06.157Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "986e29e0-6ac0-4fde-a08d-a7368c0eb8ff",
+        "name": "Gourmet Delights",
+        "description": "Delicious gourmet food products",
+        "created_at": "2023-08-06T06:47:24.967Z",
+        "updated_at": "2023-08-06T06:15:29.719Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "617d9a0a-60d0-4d33-848c-958dbe538651",
+        "name": "Tech World",
+        "description": "Explore the latest tech gadgets",
+        "created_at": "2023-08-06T09:46:55.919Z",
+        "updated_at": "2023-08-06T10:07:00.659Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "9e6850ff-6191-49c7-9c3d-89a12c88e5cd",
+        "name": "Sports Zone",
+        "description": "Everything for sports enthusiasts",
+        "created_at": "2023-08-05T20:29:18.860Z",
+        "updated_at": "2023-08-06T03:06:51.353Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "106fed1f-ff97-4a72-9e21-8be3c371a216",
+        "name": "Stylish Watch",
+        "description": "A fashionable accessory for any occasion",
+        "price": 71307,
+        "created_at": "2023-08-06T08:16:43.626Z",
+        "updated_at": "2023-08-06T08:57:20.411Z",
+        "shop_id": "617d9a0a-60d0-4d33-848c-958dbe538651"
+      },
+      {
+        "id": "be667b57-a611-4481-94c4-7de19fc31f4e",
+        "name": "Cozy Blanket",
+        "description": "Stay warm and comfortable with this soft blanket",
+        "price": 54462,
+        "created_at": "2023-08-05T22:45:44.275Z",
+        "updated_at": "2023-08-05T19:46:18.484Z",
+        "shop_id": "0cfbb5ca-7584-498c-87e3-d8c58aba7fa6"
+      },
+      {
+        "id": "f64ff7d0-3dbc-4d89-8372-51daf9968e9b",
+        "name": "Gourmet Coffee",
+        "description": "Indulge in the rich flavors of this premium coffee",
+        "price": 92036,
+        "created_at": "2023-08-06T07:27:56.948Z",
+        "updated_at": "2023-08-05T22:17:52.040Z",
+        "shop_id": "986e29e0-6ac0-4fde-a08d-a7368c0eb8ff"
+      },
+      {
+        "id": "293e5444-2600-45a3-8605-58b7b059fbb6",
+        "name": "Wireless Headphones",
+        "description": "Enjoy wireless music with high-quality sound",
+        "price": 63688,
+        "created_at": "2023-08-06T01:42:14.291Z",
+        "updated_at": "2023-08-06T06:30:36.215Z",
+        "shop_id": "9e6850ff-6191-49c7-9c3d-89a12c88e5cd"
+      },
+      {
+        "id": "27caf6bd-11e2-4be6-b965-48ab432e28d2",
+        "name": "Fitness Tracker",
+        "description": "Track your fitness goals with this advanced device",
+        "price": 21227,
+        "created_at": "2023-08-05T17:40:26.095Z",
+        "updated_at": "2023-08-06T07:14:37.409Z",
+        "shop_id": "986e29e0-6ac0-4fde-a08d-a7368c0eb8ff"
+      }
+    ],
+    "rating": [
+      {
+        "id": "71f3367c-6968-4a69-a8f5-dce40cbfdcbc",
+        "score": 90395,
+        "created_at": "2023-08-05T22:19:59.492Z",
+        "updated_at": "2023-08-05T22:05:26.433Z",
+        "product_id": "27caf6bd-11e2-4be6-b965-48ab432e28d2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9802df3-2062-4a11-a1be-53ab98ada92f",
+        "score": 49547,
+        "created_at": "2023-08-06T01:08:01.338Z",
+        "updated_at": "2023-08-06T11:36:22.265Z",
+        "product_id": "f64ff7d0-3dbc-4d89-8372-51daf9968e9b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "867fc03e-6d4e-462a-b5e6-0f6e094f3e4f",
+        "score": 99935,
+        "created_at": "2023-08-06T15:55:58.137Z",
+        "updated_at": "2023-08-06T15:55:14.604Z",
+        "product_id": "f64ff7d0-3dbc-4d89-8372-51daf9968e9b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9cac2b94-c68d-4a24-9243-cc73a1f54f8f",
+        "score": 52281,
+        "created_at": "2023-08-06T04:00:12.650Z",
+        "updated_at": "2023-08-05T21:01:10.397Z",
+        "product_id": "293e5444-2600-45a3-8605-58b7b059fbb6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "50a8c6a9-ab73-41b4-a811-7a0f4e607076",
+        "score": 53459,
+        "created_at": "2023-08-06T13:26:49.585Z",
+        "updated_at": "2023-08-05T22:48:35.515Z",
+        "product_id": "106fed1f-ff97-4a72-9e21-8be3c371a216",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "f01b7e97-58af-4bfc-b1ed-6dd82a6e7c8d",
+        "created_at": "2023-08-06T15:41:29.122Z",
+        "updated_at": "2023-08-06T05:06:03.899Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db075c05-18e8-4730-bf40-649e159d0b29",
+        "created_at": "2023-08-06T11:44:06.515Z",
+        "updated_at": "2023-08-05T20:53:42.722Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00943e1a-c1ae-4375-b630-1a78178f07f4",
+        "created_at": "2023-08-06T12:16:48.396Z",
+        "updated_at": "2023-08-05T21:03:45.808Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da31f697-a4e7-4d6d-96f0-7c492f8e9326",
+        "created_at": "2023-08-06T06:09:01.080Z",
+        "updated_at": "2023-08-06T13:00:05.798Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8280856a-0943-4f82-9865-6049e7f9837c",
+        "created_at": "2023-08-06T12:18:51.631Z",
+        "updated_at": "2023-08-05T22:22:49.250Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "7dfd071e-d57b-411d-9734-70d05e37bd60",
+        "created_at": "2023-08-06T16:28:01.521Z",
+        "updated_at": "2023-08-06T07:48:40.010Z",
+        "cart_id": "da31f697-a4e7-4d6d-96f0-7c492f8e9326",
+        "product_id": "be667b57-a611-4481-94c4-7de19fc31f4e"
+      },
+      {
+        "id": "7dbf8ab9-95a0-4d54-9539-f4963bfe9bff",
+        "created_at": "2023-08-06T06:09:55.498Z",
+        "updated_at": "2023-08-06T11:18:38.887Z",
+        "cart_id": "db075c05-18e8-4730-bf40-649e159d0b29",
+        "product_id": "106fed1f-ff97-4a72-9e21-8be3c371a216"
+      },
+      {
+        "id": "ab73700a-590e-430d-a55d-8b811cb11899",
+        "created_at": "2023-08-05T21:36:14.602Z",
+        "updated_at": "2023-08-06T03:33:45.402Z",
+        "cart_id": "da31f697-a4e7-4d6d-96f0-7c492f8e9326",
+        "product_id": "f64ff7d0-3dbc-4d89-8372-51daf9968e9b"
+      },
+      {
+        "id": "e1860351-5c0e-42ee-bfe3-b35baf04d5e3",
+        "created_at": "2023-08-05T23:54:10.550Z",
+        "updated_at": "2023-08-06T14:29:05.988Z",
+        "cart_id": "f01b7e97-58af-4bfc-b1ed-6dd82a6e7c8d",
+        "product_id": "293e5444-2600-45a3-8605-58b7b059fbb6"
+      },
+      {
+        "id": "28d6c4b9-d332-4c74-b98b-b87b48faf7a0",
+        "created_at": "2023-08-06T01:05:43.666Z",
+        "updated_at": "2023-08-06T13:23:49.878Z",
+        "cart_id": "da31f697-a4e7-4d6d-96f0-7c492f8e9326",
+        "product_id": "f64ff7d0-3dbc-4d89-8372-51daf9968e9b"
+      }
+    ]
+  },
+  {
+    "shop": [
+      {
+        "id": "e52a4f46-27af-47c9-9fde-cab56185fdce",
+        "name": "The Fashion Spot",
+        "description": "A trendy fashion store",
+        "created_at": "2023-08-05T23:04:24.602Z",
+        "updated_at": "2023-08-06T13:32:07.499Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "069c21c4-5a09-4683-a01c-96259ecc1a3c",
+        "name": "Home Decor Haven",
+        "description": "Find the perfect home decor items",
+        "created_at": "2023-08-06T04:20:48.066Z",
+        "updated_at": "2023-08-05T23:36:15.405Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "06b34f59-2f89-473a-a034-76c12b71ed02",
+        "name": "Gourmet Delights",
+        "description": "Delicious gourmet food products",
+        "created_at": "2023-08-06T03:02:22.582Z",
+        "updated_at": "2023-08-06T10:20:38.283Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "a98f626d-c6f7-4b8d-b1d1-9215edfc7d5f",
+        "name": "Tech World",
+        "description": "Explore the latest tech gadgets",
+        "created_at": "2023-08-05T19:24:54.580Z",
+        "updated_at": "2023-08-06T04:38:18.357Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "7bf32cea-91ac-428e-b453-8e5f47ef88cd",
+        "name": "Sports Zone",
+        "description": "Everything for sports enthusiasts",
+        "created_at": "2023-08-06T06:48:16.265Z",
+        "updated_at": "2023-08-06T08:36:12.329Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "f570dca4-6ac9-4443-99cb-3a27b8004cbb",
+        "name": "Stylish Watch",
+        "description": "A fashionable accessory for any occasion",
+        "price": 24536,
+        "created_at": "2023-08-05T19:49:46.646Z",
+        "updated_at": "2023-08-05T22:44:40.052Z",
+        "shop_id": "7bf32cea-91ac-428e-b453-8e5f47ef88cd"
+      },
+      {
+        "id": "52649976-4026-4601-a9d0-0fd1acd20c77",
+        "name": "Cozy Blanket",
+        "description": "Stay warm and comfortable with this soft blanket",
+        "price": 8709,
+        "created_at": "2023-08-06T16:31:06.433Z",
+        "updated_at": "2023-08-05T23:36:49.414Z",
+        "shop_id": "a98f626d-c6f7-4b8d-b1d1-9215edfc7d5f"
+      },
+      {
+        "id": "ad91953e-f71a-49f9-9b8e-f82e86ea9cfb",
+        "name": "Gourmet Coffee",
+        "description": "Indulge in the rich flavors of this premium coffee",
+        "price": 23481,
+        "created_at": "2023-08-06T14:49:30.259Z",
+        "updated_at": "2023-08-06T01:27:14.201Z",
+        "shop_id": "069c21c4-5a09-4683-a01c-96259ecc1a3c"
+      },
+      {
+        "id": "f5ef69d9-976a-4778-af50-2a5bb8fb6660",
+        "name": "Smartphone",
+        "description": "Experience the latest technology with this smartphone",
+        "price": 69549,
+        "created_at": "2023-08-06T15:10:42.794Z",
+        "updated_at": "2023-08-06T08:49:22.856Z",
+        "shop_id": "06b34f59-2f89-473a-a034-76c12b71ed02"
+      },
+      {
+        "id": "86c8943c-a6ab-4cab-abab-929c883cba32",
+        "name": "Sports Shoes",
+        "description": "Enhance your performance with these high-quality sports shoes",
+        "price": 37631,
+        "created_at": "2023-08-06T14:33:41.732Z",
+        "updated_at": "2023-08-05T17:25:42.088Z",
+        "shop_id": "069c21c4-5a09-4683-a01c-96259ecc1a3c"
+      }
+    ],
+    "rating": [
+      {
+        "id": "7264512d-0920-48eb-a52f-2ed0ac5caa12",
+        "score": 11284,
+        "created_at": "2023-08-05T22:59:15.622Z",
+        "updated_at": "2023-08-06T09:09:49.784Z",
+        "product_id": "86c8943c-a6ab-4cab-abab-929c883cba32",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e5d1b8df-71ae-4e5d-9e3d-fe0e8bcae43e",
+        "score": 88947,
+        "created_at": "2023-08-05T20:50:02.654Z",
+        "updated_at": "2023-08-05T22:29:14.730Z",
+        "product_id": "f5ef69d9-976a-4778-af50-2a5bb8fb6660",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ce7ae6a-e210-4081-a9ff-f1b72e53ed4c",
+        "score": 61985,
+        "created_at": "2023-08-06T10:59:47.445Z",
+        "updated_at": "2023-08-06T05:01:08.861Z",
+        "product_id": "86c8943c-a6ab-4cab-abab-929c883cba32",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0b53b84-85f0-4f13-b47f-92f4f65a83ba",
+        "score": 198,
+        "created_at": "2023-08-06T01:02:54.590Z",
+        "updated_at": "2023-08-05T23:43:33.135Z",
+        "product_id": "f5ef69d9-976a-4778-af50-2a5bb8fb6660",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7eab23b-9f1a-4ed3-981d-7775ffab2a10",
+        "score": 2021,
+        "created_at": "2023-08-05T22:28:50.319Z",
+        "updated_at": "2023-08-05T22:18:19.854Z",
+        "product_id": "f570dca4-6ac9-4443-99cb-3a27b8004cbb",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "2b47ecb3-d865-4a42-9544-88e718945b04",
+        "created_at": "2023-08-05T22:23:58.683Z",
+        "updated_at": "2023-08-05T19:21:40.888Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a297244e-f06e-4854-af97-bf8cd8204032",
+        "created_at": "2023-08-06T08:30:18.511Z",
+        "updated_at": "2023-08-06T09:53:45.412Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "747aea4b-d67f-4cf5-ae44-f5288e2cee9a",
+        "created_at": "2023-08-06T16:07:42.293Z",
+        "updated_at": "2023-08-06T09:07:53.752Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f013ad3-9a05-4161-bfbc-0b3970a90085",
+        "created_at": "2023-08-06T05:58:34.620Z",
+        "updated_at": "2023-08-06T08:53:59.283Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3534d122-6ff4-484a-85fe-9a85989a66d2",
+        "created_at": "2023-08-06T16:43:24.560Z",
+        "updated_at": "2023-08-06T13:50:22.730Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "136b18b2-8b88-470d-ac84-1c512cf65389",
+        "created_at": "2023-08-05T19:17:09.546Z",
+        "updated_at": "2023-08-05T21:40:13.507Z",
+        "cart_id": "747aea4b-d67f-4cf5-ae44-f5288e2cee9a",
+        "product_id": "86c8943c-a6ab-4cab-abab-929c883cba32"
+      },
+      {
+        "id": "1d271e8d-2298-489c-8b84-0e7b32daa08d",
+        "created_at": "2023-08-06T11:18:08.554Z",
+        "updated_at": "2023-08-05T23:52:49.997Z",
+        "cart_id": "a297244e-f06e-4854-af97-bf8cd8204032",
+        "product_id": "52649976-4026-4601-a9d0-0fd1acd20c77"
+      },
+      {
+        "id": "2ad908eb-2de7-40ff-841d-ae18ca6733dd",
+        "created_at": "2023-08-06T11:52:22.926Z",
+        "updated_at": "2023-08-06T07:38:18.013Z",
+        "cart_id": "747aea4b-d67f-4cf5-ae44-f5288e2cee9a",
+        "product_id": "ad91953e-f71a-49f9-9b8e-f82e86ea9cfb"
+      },
+      {
+        "id": "67c04fd9-d8bf-4ea2-a82b-8f0729a83350",
+        "created_at": "2023-08-06T08:31:35.087Z",
+        "updated_at": "2023-08-06T06:48:10.427Z",
+        "cart_id": "747aea4b-d67f-4cf5-ae44-f5288e2cee9a",
+        "product_id": "f5ef69d9-976a-4778-af50-2a5bb8fb6660"
+      },
+      {
+        "id": "89cd7942-af4b-48b0-a2a7-c01363ab5612",
+        "created_at": "2023-08-06T08:57:27.715Z",
+        "updated_at": "2023-08-05T17:09:52.813Z",
+        "cart_id": "3534d122-6ff4-484a-85fe-9a85989a66d2",
+        "product_id": "52649976-4026-4601-a9d0-0fd1acd20c77"
+      }
+    ]
+  },
+  {
+    "shop": [
+      {
+        "id": "bf5f81e9-0944-42a6-b119-a6d8c220bd43",
+        "name": "The Fashion Spot",
+        "description": "A trendy fashion store",
+        "created_at": "2023-08-05T23:32:14.677Z",
+        "updated_at": "2023-08-06T14:20:58.637Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "5794ec1f-abdd-4183-84fd-01a885b9bb53",
+        "name": "Home Decor Haven",
+        "description": "Find the perfect home decor items",
+        "created_at": "2023-08-06T09:35:58.878Z",
+        "updated_at": "2023-08-06T12:13:14.525Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "c1620aea-c8c8-4d2f-8063-d9714b14d9a6",
+        "name": "Gourmet Delights",
+        "description": "Delicious gourmet food products",
+        "created_at": "2023-08-06T01:22:15.486Z",
+        "updated_at": "2023-08-05T18:23:57.038Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "0118ac0a-26bf-4007-8195-a92dfd5ee445",
+        "name": "Tech World",
+        "description": "Explore the latest tech gadgets",
+        "created_at": "2023-08-05T22:18:04.961Z",
+        "updated_at": "2023-08-06T14:34:58.914Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "8cb2d3ac-1584-435b-bc67-68b7ecc26438",
+        "name": "Sports Zone",
+        "description": "Everything for sports enthusiasts",
+        "created_at": "2023-08-05T17:21:13.476Z",
+        "updated_at": "2023-08-05T17:46:55.499Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "2c429de1-4ad0-4373-9f39-7f3661a97f43",
+        "name": "Stylish Watch",
+        "description": "A fashionable accessory for any occasion",
+        "price": 65718,
+        "created_at": "2023-08-06T16:10:22.232Z",
+        "updated_at": "2023-08-06T15:37:01.678Z",
+        "shop_id": "0118ac0a-26bf-4007-8195-a92dfd5ee445"
+      },
+      {
+        "id": "1bce212d-53cb-448d-bd36-254f456a7365",
+        "name": "Cozy Blanket",
+        "description": "Stay warm and comfortable with this soft blanket",
+        "price": 82109,
+        "created_at": "2023-08-06T10:53:52.982Z",
+        "updated_at": "2023-08-05T21:08:39.981Z",
+        "shop_id": "5794ec1f-abdd-4183-84fd-01a885b9bb53"
+      },
+      {
+        "id": "ea1e8aaf-8c0c-4029-8d48-29b8e4d6e742",
+        "name": "Gourmet Coffee",
+        "description": "Indulge in the rich flavors of this premium coffee",
+        "price": 45146,
+        "created_at": "2023-08-06T04:17:00.246Z",
+        "updated_at": "2023-08-06T04:28:25.054Z",
+        "shop_id": "bf5f81e9-0944-42a6-b119-a6d8c220bd43"
+      },
+      {
+        "id": "34effc87-c7dd-4d83-87e5-b7b546c470bb",
+        "name": "Smartphone",
+        "description": "Experience the latest technology with this smartphone",
+        "price": 1505,
+        "created_at": "2023-08-05T19:09:37.151Z",
+        "updated_at": "2023-08-05T22:11:53.108Z",
+        "shop_id": "0118ac0a-26bf-4007-8195-a92dfd5ee445"
+      },
+      {
+        "id": "e4a562b8-5a10-4771-a1d4-3ecfd26dbcc7",
+        "name": "Sports Shoes",
+        "description": "Enhance your performance with these high-quality sports shoes",
+        "price": 8883,
+        "created_at": "2023-08-06T12:30:24.730Z",
+        "updated_at": "2023-08-06T07:56:03.569Z",
+        "shop_id": "0118ac0a-26bf-4007-8195-a92dfd5ee445"
+      }
+    ],
+    "rating": [
+      {
+        "id": "39cc4ce3-772c-452a-8c1d-2ccb6930d290",
+        "score": 74706,
+        "created_at": "2023-08-06T09:47:50.551Z",
+        "updated_at": "2023-08-06T09:55:18.866Z",
+        "product_id": "34effc87-c7dd-4d83-87e5-b7b546c470bb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa7ffd7b-0123-4b13-be3e-9445e8cd4e44",
+        "score": 6576,
+        "created_at": "2023-08-06T12:50:30.227Z",
+        "updated_at": "2023-08-05T21:47:20.813Z",
+        "product_id": "2c429de1-4ad0-4373-9f39-7f3661a97f43",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2492704d-3bd2-48d5-8677-8739693ad6fa",
+        "score": 74286,
+        "created_at": "2023-08-06T07:26:18.933Z",
+        "updated_at": "2023-08-05T18:28:30.738Z",
+        "product_id": "e4a562b8-5a10-4771-a1d4-3ecfd26dbcc7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8ed42ac-8bfc-47a5-b2eb-daeb82d646c6",
+        "score": 40462,
+        "created_at": "2023-08-06T15:57:19.698Z",
+        "updated_at": "2023-08-06T11:21:40.236Z",
+        "product_id": "2c429de1-4ad0-4373-9f39-7f3661a97f43",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5363e201-8551-4cd8-83a0-f2d64c76ab82",
+        "score": 36719,
+        "created_at": "2023-08-05T16:57:31.503Z",
+        "updated_at": "2023-08-06T13:20:38.780Z",
+        "product_id": "1bce212d-53cb-448d-bd36-254f456a7365",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "ce6c9ec3-e9ad-46ee-9e54-cbe14d1a7c11",
+        "created_at": "2023-08-06T14:46:15.686Z",
+        "updated_at": "2023-08-06T12:05:06.174Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd58a6d5-58d2-4d92-88ed-ea9a0c3be542",
+        "created_at": "2023-08-05T21:27:41.996Z",
+        "updated_at": "2023-08-06T13:19:56.498Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c25700df-dcc7-4571-8783-6c36c7253c5e",
+        "created_at": "2023-08-06T07:22:34.906Z",
+        "updated_at": "2023-08-05T23:17:04.909Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70ac3d45-1730-46f0-ad1f-2f52009d8181",
+        "created_at": "2023-08-06T04:40:13.457Z",
+        "updated_at": "2023-08-06T07:34:27.778Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0385f67e-b966-475b-a4d3-c5b1fa2c467e",
+        "created_at": "2023-08-06T16:13:55.216Z",
+        "updated_at": "2023-08-06T15:28:15.652Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "89146153-7a38-4a40-aacf-b80f2f74276e",
+        "created_at": "2023-08-06T07:40:03.684Z",
+        "updated_at": "2023-08-05T19:15:46.700Z",
+        "cart_id": "c25700df-dcc7-4571-8783-6c36c7253c5e",
+        "product_id": "e4a562b8-5a10-4771-a1d4-3ecfd26dbcc7"
+      },
+      {
+        "id": "a6fc2d4b-e403-4dbe-bf00-a487b70102ae",
+        "created_at": "2023-08-05T17:50:35.331Z",
+        "updated_at": "2023-08-06T02:27:27.321Z",
+        "cart_id": "ce6c9ec3-e9ad-46ee-9e54-cbe14d1a7c11",
+        "product_id": "1bce212d-53cb-448d-bd36-254f456a7365"
+      },
+      {
+        "id": "375d4b7f-bfe5-4705-9234-b47278cd2a87",
+        "created_at": "2023-08-05T19:25:20.416Z",
+        "updated_at": "2023-08-06T11:11:50.895Z",
+        "cart_id": "0385f67e-b966-475b-a4d3-c5b1fa2c467e",
+        "product_id": "e4a562b8-5a10-4771-a1d4-3ecfd26dbcc7"
+      },
+      {
+        "id": "0fc7f70a-1aa5-4a81-8fce-ddf29e0316d2",
+        "created_at": "2023-08-06T13:02:13.106Z",
+        "updated_at": "2023-08-06T10:59:11.975Z",
+        "cart_id": "ce6c9ec3-e9ad-46ee-9e54-cbe14d1a7c11",
+        "product_id": "34effc87-c7dd-4d83-87e5-b7b546c470bb"
+      },
+      {
+        "id": "f65e5667-67dd-4c0a-bf34-f249a58ba4d6",
+        "created_at": "2023-08-05T23:28:37.734Z",
+        "updated_at": "2023-08-06T11:06:30.562Z",
+        "cart_id": "70ac3d45-1730-46f0-ad1f-2f52009d8181",
+        "product_id": "ea1e8aaf-8c0c-4029-8d48-29b8e4d6e742"
+      }
+    ]
+  },
+  {
+    "shop": [
+      {
+        "id": "49962f37-d50b-4a5e-adb3-35df6da77b5d",
+        "name": "The Green Thumb",
+        "description": "A garden paradise for plant lovers",
+        "created_at": "2023-08-06T02:09:39.080Z",
+        "updated_at": "2023-08-06T01:03:16.759Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "67dbcf94-a2d9-41c7-8e18-3c235c467e67",
+        "name": "Fashion Forward",
+        "description": "Trendy clothing for all occasions",
+        "created_at": "2023-08-06T13:36:29.067Z",
+        "updated_at": "2023-08-06T13:07:09.753Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "1005aef6-c007-4ea7-8e13-6ae6f9bdd7ba",
+        "name": "Tech Haven",
+        "description": "Cutting-edge technology at affordable prices",
+        "created_at": "2023-08-06T06:31:47.990Z",
+        "updated_at": "2023-08-06T07:23:59.002Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "d3252dc2-64fa-4f28-b6fb-0e55c29316b8",
+        "name": "Home Sweet Home",
+        "description": "Cozy and stylish home decor",
+        "created_at": "2023-08-05T20:26:41.843Z",
+        "updated_at": "2023-08-06T04:06:54.108Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "dd67f830-9cad-4afa-8cb5-ae6e7443c4c2",
+        "name": "Foodie's Delight",
+        "description": "Delicious and diverse culinary experiences",
+        "created_at": "2023-08-05T17:17:42.094Z",
+        "updated_at": "2023-08-06T08:52:22.024Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "8e0fb817-ac4d-4ce9-bde3-cbb490e0b1cd",
+        "name": "Elegant Earrings",
+        "description": "Beautiful earrings for any occasion",
+        "price": 61175,
+        "created_at": "2023-08-05T22:13:12.261Z",
+        "updated_at": "2023-08-06T16:11:45.508Z",
+        "shop_id": "dd67f830-9cad-4afa-8cb5-ae6e7443c4c2"
+      },
+      {
+        "id": "63ccd195-4639-406e-a08a-46da47fa2e10",
+        "name": "Smartphone Stand",
+        "description": "Convenient stand for your smartphone",
+        "price": 68838,
+        "created_at": "2023-08-05T23:03:21.734Z",
+        "updated_at": "2023-08-06T08:57:21.396Z",
+        "shop_id": "49962f37-d50b-4a5e-adb3-35df6da77b5d"
+      },
+      {
+        "id": "4bf11ebf-ab64-47ab-8936-2b9d20dd8d89",
+        "name": "Comfortable Sofa",
+        "description": "Relaxing and stylish sofa for your living room",
+        "price": 81725,
+        "created_at": "2023-08-06T15:52:07.167Z",
+        "updated_at": "2023-08-06T11:28:08.474Z",
+        "shop_id": "d3252dc2-64fa-4f28-b6fb-0e55c29316b8"
+      },
+      {
+        "id": "9cb639a7-d6af-46d1-aece-f745663a853d",
+        "name": "Gourmet Coffee Beans",
+        "description": "Premium coffee beans for the perfect cup of joe",
+        "price": 4784,
+        "created_at": "2023-08-05T18:48:22.698Z",
+        "updated_at": "2023-08-06T04:53:48.579Z",
+        "shop_id": "d3252dc2-64fa-4f28-b6fb-0e55c29316b8"
+      },
+      {
+        "id": "4c9b9228-d66b-46d2-b7bc-3c461a8aae57",
+        "name": "Handcrafted Necklace",
+        "description": "Unique and stunning necklace for a special gift",
+        "price": 71175,
+        "created_at": "2023-08-06T14:48:20.169Z",
+        "updated_at": "2023-08-05T17:14:49.948Z",
+        "shop_id": "dd67f830-9cad-4afa-8cb5-ae6e7443c4c2"
+      }
+    ],
+    "rating": [
+      {
+        "id": "dfe77ae8-ab0f-4ed4-aac8-81a5c25d9b0b",
+        "score": 46056,
+        "created_at": "2023-08-05T23:02:37.266Z",
+        "updated_at": "2023-08-06T01:05:29.815Z",
+        "product_id": "4bf11ebf-ab64-47ab-8936-2b9d20dd8d89",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81acd272-afcb-4164-bda4-4f2336103562",
+        "score": 18507,
+        "created_at": "2023-08-06T05:05:03.508Z",
+        "updated_at": "2023-08-06T06:30:34.197Z",
+        "product_id": "9cb639a7-d6af-46d1-aece-f745663a853d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e34bc4a1-9cfd-4b40-a7d1-9daeeadde18d",
+        "score": 41093,
+        "created_at": "2023-08-05T22:37:49.853Z",
+        "updated_at": "2023-08-05T21:30:36.153Z",
+        "product_id": "63ccd195-4639-406e-a08a-46da47fa2e10",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ffd9284-2475-4879-9cef-2a78ff060235",
+        "score": 44494,
+        "created_at": "2023-08-06T15:08:38.094Z",
+        "updated_at": "2023-08-06T05:56:47.972Z",
+        "product_id": "4bf11ebf-ab64-47ab-8936-2b9d20dd8d89",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "395d209d-f2c7-4a11-9660-e4dfae9a5846",
+        "score": 43606,
+        "created_at": "2023-08-06T07:44:32.819Z",
+        "updated_at": "2023-08-06T07:21:31.652Z",
+        "product_id": "8e0fb817-ac4d-4ce9-bde3-cbb490e0b1cd",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "fd481c71-4225-47d0-8086-75ba4c6d6191",
+        "created_at": "2023-08-06T05:12:29.022Z",
+        "updated_at": "2023-08-06T12:13:25.500Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f8a2f73-597f-45c9-8509-8885ebe6be2d",
+        "created_at": "2023-08-06T00:12:49.122Z",
+        "updated_at": "2023-08-06T13:44:58.871Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4acf858d-816b-41cc-9f83-848848ba109e",
+        "created_at": "2023-08-06T10:12:09.251Z",
+        "updated_at": "2023-08-06T16:37:55.636Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ec643c5-82b1-4c93-a31a-35732c2699ae",
+        "created_at": "2023-08-06T12:34:19.747Z",
+        "updated_at": "2023-08-06T05:54:01.509Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "755473c9-62a4-42f9-8a0c-cb244e17d8f5",
+        "created_at": "2023-08-06T15:02:44.575Z",
+        "updated_at": "2023-08-05T19:10:29.156Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "0ed556c6-f4a8-4e17-95fb-90b500e23ae0",
+        "created_at": "2023-08-06T16:11:40.558Z",
+        "updated_at": "2023-08-06T08:11:05.126Z",
+        "cart_id": "8f8a2f73-597f-45c9-8509-8885ebe6be2d",
+        "product_id": "4c9b9228-d66b-46d2-b7bc-3c461a8aae57"
+      },
+      {
+        "id": "494b0ab9-008a-4583-8969-936958e10622",
+        "created_at": "2023-08-05T22:24:29.109Z",
+        "updated_at": "2023-08-06T12:00:23.140Z",
+        "cart_id": "5ec643c5-82b1-4c93-a31a-35732c2699ae",
+        "product_id": "4bf11ebf-ab64-47ab-8936-2b9d20dd8d89"
+      },
+      {
+        "id": "102839a1-44d9-469c-a5bb-eba0550e6929",
+        "created_at": "2023-08-06T13:08:43.681Z",
+        "updated_at": "2023-08-06T12:37:46.985Z",
+        "cart_id": "755473c9-62a4-42f9-8a0c-cb244e17d8f5",
+        "product_id": "4c9b9228-d66b-46d2-b7bc-3c461a8aae57"
+      },
+      {
+        "id": "25d042be-dcc9-477b-95f0-ea246f21809c",
+        "created_at": "2023-08-05T23:31:09.855Z",
+        "updated_at": "2023-08-06T05:21:50.276Z",
+        "cart_id": "5ec643c5-82b1-4c93-a31a-35732c2699ae",
+        "product_id": "4c9b9228-d66b-46d2-b7bc-3c461a8aae57"
+      },
+      {
+        "id": "43008a7d-a966-4d72-b7fd-bc1a106a080f",
+        "created_at": "2023-08-06T09:05:27.266Z",
+        "updated_at": "2023-08-05T20:07:38.774Z",
+        "cart_id": "8f8a2f73-597f-45c9-8509-8885ebe6be2d",
+        "product_id": "9cb639a7-d6af-46d1-aece-f745663a853d"
+      }
+    ]
+  },
+  {
+    "shop": [
+      {
+        "id": "cd12003a-fb83-4b40-b361-143628956e0f",
+        "name": "The Fashion Spot",
+        "description": "A trendy fashion store",
+        "created_at": "2023-08-06T13:55:33.989Z",
+        "updated_at": "2023-08-06T16:11:11.919Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "d8cccabf-c416-4e7f-abea-d63a00cea424",
+        "name": "Home Decor Haven",
+        "description": "Find the perfect home decor items",
+        "created_at": "2023-08-06T12:24:56.161Z",
+        "updated_at": "2023-08-06T12:56:37.158Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "880cbf0d-fe94-49bc-a55a-7bde15958c70",
+        "name": "Gourmet Delights",
+        "description": "Delicious gourmet food products",
+        "created_at": "2023-08-05T17:52:21.713Z",
+        "updated_at": "2023-08-05T19:12:38.653Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "ce862bcc-7abf-43a1-9e89-b04c59556ff0",
+        "name": "Tech World",
+        "description": "Explore the latest tech gadgets",
+        "created_at": "2023-08-05T22:09:27.132Z",
+        "updated_at": "2023-08-06T08:29:42.649Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "88e00b7e-eae3-42b1-96ca-eb8f95b0b8b3",
+        "name": "Sports Zone",
+        "description": "Get your sports gear here",
+        "created_at": "2023-08-06T01:55:15.435Z",
+        "updated_at": "2023-08-06T00:25:48.118Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "10844b3c-c15c-40fc-8447-77b73b586bcd",
+        "name": "Stylish T-Shirt",
+        "description": "A comfortable and fashionable t-shirt",
+        "price": 97230,
+        "created_at": "2023-08-05T18:09:18.241Z",
+        "updated_at": "2023-08-06T09:10:27.171Z",
+        "shop_id": "cd12003a-fb83-4b40-b361-143628956e0f"
+      },
+      {
+        "id": "cfade87e-4124-466d-8799-2e27a29a55c5",
+        "name": "Elegant Table Lamp",
+        "description": "Illuminate your space with this beautiful lamp",
+        "price": 82522,
+        "created_at": "2023-08-06T01:28:31.575Z",
+        "updated_at": "2023-08-06T09:58:16.641Z",
+        "shop_id": "88e00b7e-eae3-42b1-96ca-eb8f95b0b8b3"
+      },
+      {
+        "id": "3d81e081-be8c-43a8-8aa7-5f4cfbb878fd",
+        "name": "Artisanal Chocolate",
+        "description": "Indulge in the rich flavors of handmade chocolate",
+        "price": 87483,
+        "created_at": "2023-08-06T09:11:00.714Z",
+        "updated_at": "2023-08-06T03:47:40.857Z",
+        "shop_id": "ce862bcc-7abf-43a1-9e89-b04c59556ff0"
+      },
+      {
+        "id": "19a22d20-bbe6-4168-bcc1-24e05ac78a2c",
+        "name": "Wireless Bluetooth Earphones",
+        "description": "Enjoy wireless music with these high-quality earphones",
+        "price": 25801,
+        "created_at": "2023-08-05T23:34:19.133Z",
+        "updated_at": "2023-08-06T04:23:36.514Z",
+        "shop_id": "d8cccabf-c416-4e7f-abea-d63a00cea424"
+      },
+      {
+        "id": "74791c34-6e3a-481a-bd1e-2e7440d9279b",
+        "name": "Football Jersey",
+        "description": "Support your favorite team with this official jersey",
+        "price": 91341,
+        "created_at": "2023-08-06T13:55:44.584Z",
+        "updated_at": "2023-08-06T11:35:01.060Z",
+        "shop_id": "ce862bcc-7abf-43a1-9e89-b04c59556ff0"
+      }
+    ],
+    "rating": [
+      {
+        "id": "12eb3c87-cc5a-4ead-b20b-e08889441873",
+        "score": 61449,
+        "created_at": "2023-08-06T00:09:21.064Z",
+        "updated_at": "2023-08-06T02:53:06.294Z",
+        "product_id": "3d81e081-be8c-43a8-8aa7-5f4cfbb878fd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b14df02-18c9-4cd7-b835-79ba556dd38a",
+        "score": 54023,
+        "created_at": "2023-08-06T10:36:29.844Z",
+        "updated_at": "2023-08-06T16:56:08.021Z",
+        "product_id": "74791c34-6e3a-481a-bd1e-2e7440d9279b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "564aa845-0689-44c5-a59f-bfd377c970b7",
+        "score": 47148,
+        "created_at": "2023-08-05T17:30:45.022Z",
+        "updated_at": "2023-08-06T13:30:18.695Z",
+        "product_id": "3d81e081-be8c-43a8-8aa7-5f4cfbb878fd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "673e3011-5176-41a7-a03d-e64b4069e031",
+        "score": 59336,
+        "created_at": "2023-08-05T20:49:14.661Z",
+        "updated_at": "2023-08-06T12:51:22.665Z",
+        "product_id": "74791c34-6e3a-481a-bd1e-2e7440d9279b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31022890-2178-43a2-a086-a7957026ffae",
+        "score": 11512,
+        "created_at": "2023-08-06T01:03:04.323Z",
+        "updated_at": "2023-08-06T01:05:10.229Z",
+        "product_id": "10844b3c-c15c-40fc-8447-77b73b586bcd",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "5f12ca54-ed61-4810-af87-62d428db899a",
+        "created_at": "2023-08-06T08:13:47.862Z",
+        "updated_at": "2023-08-06T10:40:08.166Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ada8599-83bc-4af2-9aa4-4e7f54b729e1",
+        "created_at": "2023-08-05T18:23:26.449Z",
+        "updated_at": "2023-08-06T07:12:26.070Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d99c10b-fade-493e-b158-588eed303b29",
+        "created_at": "2023-08-05T21:11:47.571Z",
+        "updated_at": "2023-08-05T17:30:42.143Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4da8e75a-4cc1-4179-9bfa-3ba2a9ddf562",
+        "created_at": "2023-08-05T18:40:26.623Z",
+        "updated_at": "2023-08-05T23:40:00.730Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f08f65b9-d382-44a3-8243-b7e6c13b1beb",
+        "created_at": "2023-08-06T05:42:40.191Z",
+        "updated_at": "2023-08-06T10:26:49.251Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "84a45549-5b15-4f2d-8f99-57f4ca80635e",
+        "created_at": "2023-08-06T16:32:56.498Z",
+        "updated_at": "2023-08-06T00:38:35.228Z",
+        "cart_id": "1ada8599-83bc-4af2-9aa4-4e7f54b729e1",
+        "product_id": "19a22d20-bbe6-4168-bcc1-24e05ac78a2c"
+      },
+      {
+        "id": "dafb0330-43c3-43fb-b5b7-fa00e6e4ac40",
+        "created_at": "2023-08-06T02:39:01.743Z",
+        "updated_at": "2023-08-06T16:11:34.215Z",
+        "cart_id": "f08f65b9-d382-44a3-8243-b7e6c13b1beb",
+        "product_id": "cfade87e-4124-466d-8799-2e27a29a55c5"
+      },
+      {
+        "id": "48fb99a5-6630-40fb-9f41-0bdcd16a6f46",
+        "created_at": "2023-08-06T14:19:59.377Z",
+        "updated_at": "2023-08-06T13:55:11.842Z",
+        "cart_id": "4da8e75a-4cc1-4179-9bfa-3ba2a9ddf562",
+        "product_id": "10844b3c-c15c-40fc-8447-77b73b586bcd"
+      },
+      {
+        "id": "cef669c6-b74a-4744-813a-155135572aae",
+        "created_at": "2023-08-06T14:55:14.432Z",
+        "updated_at": "2023-08-06T10:28:30.564Z",
+        "cart_id": "1ada8599-83bc-4af2-9aa4-4e7f54b729e1",
+        "product_id": "74791c34-6e3a-481a-bd1e-2e7440d9279b"
+      },
+      {
+        "id": "ff8b1c12-dcf7-4bbd-b300-fcfb63b46a6d",
+        "created_at": "2023-08-06T07:00:13.062Z",
+        "updated_at": "2023-08-06T02:42:55.743Z",
+        "cart_id": "f08f65b9-d382-44a3-8243-b7e6c13b1beb",
+        "product_id": "cfade87e-4124-466d-8799-2e27a29a55c5"
+      }
+    ]
+  },
+  {
+    "shop": [
+      {
+        "id": "5eded9ab-7639-4711-8887-6f6dfe628e68",
+        "name": "The Green Thumb",
+        "description": "A garden paradise for plant lovers",
+        "created_at": "2023-08-06T00:49:51.864Z",
+        "updated_at": "2023-08-06T03:53:01.522Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "e6eded86-d568-4175-b2a9-af27b1892dbb",
+        "name": "Fashion Forward",
+        "description": "Trendy clothing for all occasions",
+        "created_at": "2023-08-06T04:21:19.791Z",
+        "updated_at": "2023-08-06T12:42:55.814Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "59cc1d09-68f6-45d8-87a8-50f0d6e3171b",
+        "name": "Tech Haven",
+        "description": "Cutting-edge technology at affordable prices",
+        "created_at": "2023-08-05T19:09:44.049Z",
+        "updated_at": "2023-08-05T17:01:59.992Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "dad76b12-3dbf-4c4c-9626-7f14ac4a9304",
+        "name": "Home Sweet Home",
+        "description": "Cozy and stylish home decor",
+        "created_at": "2023-08-06T03:00:20.978Z",
+        "updated_at": "2023-08-06T12:19:02.180Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "f1a444bc-3dc6-42d1-879f-f4bc2db86c95",
+        "name": "Foodie's Delight",
+        "description": "Delicious and diverse culinary experiences",
+        "created_at": "2023-08-06T04:10:12.509Z",
+        "updated_at": "2023-08-06T14:02:16.122Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "3f386e04-670e-4a53-a1c1-5bedc3602550",
+        "name": "Elegant Earrings",
+        "description": "Beautiful earrings for any occasion",
+        "price": 62354,
+        "created_at": "2023-08-06T14:20:16.992Z",
+        "updated_at": "2023-08-05T22:50:08.874Z",
+        "shop_id": "f1a444bc-3dc6-42d1-879f-f4bc2db86c95"
+      },
+      {
+        "id": "1890e5ab-c460-4368-8eea-e14161bfc0a0",
+        "name": "Smartphone Stand",
+        "description": "Convenient stand for your smartphone",
+        "price": 62745,
+        "created_at": "2023-08-06T10:04:36.597Z",
+        "updated_at": "2023-08-05T20:27:07.989Z",
+        "shop_id": "5eded9ab-7639-4711-8887-6f6dfe628e68"
+      },
+      {
+        "id": "e24f6109-a142-4312-a921-bf12b88f4336",
+        "name": "Comfortable Sofa",
+        "description": "Relaxing and stylish sofa for your living room",
+        "price": 61981,
+        "created_at": "2023-08-06T04:35:13.134Z",
+        "updated_at": "2023-08-06T12:50:02.651Z",
+        "shop_id": "f1a444bc-3dc6-42d1-879f-f4bc2db86c95"
+      },
+      {
+        "id": "c99abcfd-7c06-4e92-8905-6d74f40a063a",
+        "name": "Gourmet Coffee Beans",
+        "description": "Premium coffee beans for the perfect cup of joe",
+        "price": 20924,
+        "created_at": "2023-08-06T08:04:34.384Z",
+        "updated_at": "2023-08-06T12:09:31.440Z",
+        "shop_id": "59cc1d09-68f6-45d8-87a8-50f0d6e3171b"
+      },
+      {
+        "id": "4a5402cf-cad8-41e3-8bac-9eaf999f4881",
+        "name": "Handcrafted Necklace",
+        "description": "Unique and stunning necklace for a special gift",
+        "price": 61037,
+        "created_at": "2023-08-06T01:58:37.035Z",
+        "updated_at": "2023-08-05T22:53:58.726Z",
+        "shop_id": "dad76b12-3dbf-4c4c-9626-7f14ac4a9304"
+      }
+    ],
+    "rating": [
+      {
+        "id": "c085924f-e784-4e22-8897-bb3b110effd5",
+        "score": 73099,
+        "created_at": "2023-08-06T01:15:28.495Z",
+        "updated_at": "2023-08-05T21:15:05.310Z",
+        "product_id": "3f386e04-670e-4a53-a1c1-5bedc3602550",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02b4e2c3-5301-4339-9af2-7d7466b31353",
+        "score": 7442,
+        "created_at": "2023-08-06T12:32:20.648Z",
+        "updated_at": "2023-08-06T08:19:48.538Z",
+        "product_id": "e24f6109-a142-4312-a921-bf12b88f4336",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9160ae21-d52a-4dc5-a862-86733ab1fd44",
+        "score": 53809,
+        "created_at": "2023-08-05T19:28:43.804Z",
+        "updated_at": "2023-08-05T19:10:10.326Z",
+        "product_id": "e24f6109-a142-4312-a921-bf12b88f4336",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0515b15-a6ae-4e1d-9896-37302a6dfe87",
+        "score": 81261,
+        "created_at": "2023-08-06T01:40:38.343Z",
+        "updated_at": "2023-08-05T23:47:10.499Z",
+        "product_id": "3f386e04-670e-4a53-a1c1-5bedc3602550",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a219ea8c-e22f-40b1-82da-025a42e8fcc8",
+        "score": 64013,
+        "created_at": "2023-08-05T21:31:50.685Z",
+        "updated_at": "2023-08-06T04:02:56.275Z",
+        "product_id": "1890e5ab-c460-4368-8eea-e14161bfc0a0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "5ed25ab1-d036-4952-80ae-4cb2b52964b5",
+        "created_at": "2023-08-06T07:37:00.395Z",
+        "updated_at": "2023-08-06T04:44:45.663Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b50fea4-60aa-4360-b48d-1c4d9d1fe36b",
+        "created_at": "2023-08-06T03:09:02.045Z",
+        "updated_at": "2023-08-05T17:03:48.847Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d154609-d5cf-4491-9947-ad873e672022",
+        "created_at": "2023-08-06T12:39:30.724Z",
+        "updated_at": "2023-08-06T13:26:12.933Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c57eb729-584c-46f2-9a45-3dacd343d1eb",
+        "created_at": "2023-08-05T19:32:37.358Z",
+        "updated_at": "2023-08-06T15:56:18.737Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3207c15e-1022-424a-adb1-91c89d70fcb9",
+        "created_at": "2023-08-06T06:09:00.759Z",
+        "updated_at": "2023-08-05T22:17:59.619Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "acb8b8e5-0dca-48e0-a726-0235486f06d4",
+        "created_at": "2023-08-06T04:04:31.580Z",
+        "updated_at": "2023-08-06T13:28:29.565Z",
+        "cart_id": "8d154609-d5cf-4491-9947-ad873e672022",
+        "product_id": "e24f6109-a142-4312-a921-bf12b88f4336"
+      },
+      {
+        "id": "ea515da5-0d73-49f2-8747-3b29c3bbb264",
+        "created_at": "2023-08-06T12:39:21.725Z",
+        "updated_at": "2023-08-06T15:03:30.478Z",
+        "cart_id": "9b50fea4-60aa-4360-b48d-1c4d9d1fe36b",
+        "product_id": "e24f6109-a142-4312-a921-bf12b88f4336"
+      },
+      {
+        "id": "97f9dae3-16ed-4942-85df-7ab285d8cceb",
+        "created_at": "2023-08-05T18:09:38.409Z",
+        "updated_at": "2023-08-06T12:01:34.563Z",
+        "cart_id": "8d154609-d5cf-4491-9947-ad873e672022",
+        "product_id": "1890e5ab-c460-4368-8eea-e14161bfc0a0"
+      },
+      {
+        "id": "111a081d-050f-4d24-8832-82c2c79209d6",
+        "created_at": "2023-08-06T14:11:01.344Z",
+        "updated_at": "2023-08-06T08:39:49.580Z",
+        "cart_id": "5ed25ab1-d036-4952-80ae-4cb2b52964b5",
+        "product_id": "3f386e04-670e-4a53-a1c1-5bedc3602550"
+      },
+      {
+        "id": "54e86b8c-2b8d-4d32-acd3-f82572798fb2",
+        "created_at": "2023-08-06T00:12:01.782Z",
+        "updated_at": "2023-08-06T00:42:48.241Z",
+        "cart_id": "9b50fea4-60aa-4360-b48d-1c4d9d1fe36b",
+        "product_id": "1890e5ab-c460-4368-8eea-e14161bfc0a0"
+      }
+    ]
+  },
+  {
+    "shop": [
+      {
+        "id": "9d6b7291-0335-44da-83f1-af726042724e",
+        "name": "The Fashion Spot",
+        "description": "A trendy fashion store",
+        "created_at": "2023-08-05T17:39:38.753Z",
+        "updated_at": "2023-08-05T22:37:43.440Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "c5883d38-7cc3-4390-b3f5-961468709d7b",
+        "name": "Home Decor Haven",
+        "description": "Find the perfect home decor items",
+        "created_at": "2023-08-06T12:34:46.616Z",
+        "updated_at": "2023-08-06T07:49:43.383Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "a684d64f-a5fc-4243-b13f-ccfe8222a48f",
+        "name": "Gourmet Delights",
+        "description": "Delicious gourmet food products",
+        "created_at": "2023-08-05T20:54:20.105Z",
+        "updated_at": "2023-08-06T00:19:45.595Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "12248cf1-49aa-4f32-967c-6fd27fc32b91",
+        "name": "Tech World",
+        "description": "Explore the latest tech gadgets",
+        "created_at": "2023-08-06T00:05:57.759Z",
+        "updated_at": "2023-08-06T03:56:49.100Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "bf5ad543-214f-404d-ab5f-10cc70108a82",
+        "name": "Sports Zone",
+        "description": "Get your sports gear here",
+        "created_at": "2023-08-06T16:48:42.986Z",
+        "updated_at": "2023-08-06T08:30:03.621Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "f9fada8c-16e6-481a-8662-f050117492a7",
+        "name": "Classic Black Dress",
+        "description": "Timeless elegance for any occasion",
+        "price": 68775,
+        "created_at": "2023-08-05T23:11:40.034Z",
+        "updated_at": "2023-08-06T15:21:13.362Z",
+        "shop_id": "9d6b7291-0335-44da-83f1-af726042724e"
+      },
+      {
+        "id": "6f14a2a0-3397-4691-b870-f2a72e90fcd1",
+        "name": "Cozy Throw Blanket",
+        "description": "Stay warm and cozy with this soft blanket",
+        "price": 41200,
+        "created_at": "2023-08-05T19:39:11.298Z",
+        "updated_at": "2023-08-05T19:20:44.075Z",
+        "shop_id": "a684d64f-a5fc-4243-b13f-ccfe8222a48f"
+      },
+      {
+        "id": "c5741249-ca71-4a68-9869-d8ca29f4568b",
+        "name": "Artisanal Chocolate Box",
+        "description": "Indulge in the finest handcrafted chocolates",
+        "price": 74097,
+        "created_at": "2023-08-05T20:15:07.056Z",
+        "updated_at": "2023-08-06T02:02:14.435Z",
+        "shop_id": "c5883d38-7cc3-4390-b3f5-961468709d7b"
+      },
+      {
+        "id": "ff6faa82-51f8-49bc-9ed7-e8ee0891768c",
+        "name": "Wireless Bluetooth Earphones",
+        "description": "Enjoy wireless music with these high-quality earphones",
+        "price": 58499,
+        "created_at": "2023-08-05T23:59:31.040Z",
+        "updated_at": "2023-08-06T09:05:26.465Z",
+        "shop_id": "a684d64f-a5fc-4243-b13f-ccfe8222a48f"
+      },
+      {
+        "id": "6f374f06-d7c5-431a-955c-4d31d61a7498",
+        "name": "Football Jersey",
+        "description": "Support your favorite team with this official jersey",
+        "price": 42708,
+        "created_at": "2023-08-05T23:43:36.963Z",
+        "updated_at": "2023-08-05T18:49:08.843Z",
+        "shop_id": "c5883d38-7cc3-4390-b3f5-961468709d7b"
+      }
+    ],
+    "rating": [
+      {
+        "id": "ebb547af-fd88-40e1-a31c-f8304de9c3cf",
+        "score": 42710,
+        "created_at": "2023-08-06T12:58:54.172Z",
+        "updated_at": "2023-08-06T06:34:31.197Z",
+        "product_id": "6f374f06-d7c5-431a-955c-4d31d61a7498",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b685dcd-e99e-476a-a266-7dda7959f694",
+        "score": 57810,
+        "created_at": "2023-08-06T10:50:00.073Z",
+        "updated_at": "2023-08-06T04:09:54.833Z",
+        "product_id": "c5741249-ca71-4a68-9869-d8ca29f4568b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6b847ac-4504-44f2-b7c2-f7fbff56b893",
+        "score": 87651,
+        "created_at": "2023-08-05T22:15:37.858Z",
+        "updated_at": "2023-08-06T11:24:48.091Z",
+        "product_id": "6f14a2a0-3397-4691-b870-f2a72e90fcd1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7a9a653-cfe5-4211-931b-eef1ccd8384b",
+        "score": 49900,
+        "created_at": "2023-08-05T21:06:51.654Z",
+        "updated_at": "2023-08-06T15:48:51.165Z",
+        "product_id": "ff6faa82-51f8-49bc-9ed7-e8ee0891768c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e58ac53-cf4d-4aea-8a51-bb7c758950e4",
+        "score": 64326,
+        "created_at": "2023-08-06T04:29:55.247Z",
+        "updated_at": "2023-08-06T15:24:13.329Z",
+        "product_id": "ff6faa82-51f8-49bc-9ed7-e8ee0891768c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "71e686a2-b2d0-49fe-b919-1f50fda976fb",
+        "created_at": "2023-08-06T03:32:42.758Z",
+        "updated_at": "2023-08-06T06:26:59.382Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5ce80d2-e725-4cd9-873a-5efca97b8eeb",
+        "created_at": "2023-08-05T22:19:48.874Z",
+        "updated_at": "2023-08-06T14:51:25.952Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb3fee09-45e8-48b5-a843-bc0778c2fedd",
+        "created_at": "2023-08-06T15:18:36.623Z",
+        "updated_at": "2023-08-06T11:01:29.708Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5857804-a6a3-4054-ae21-44ad4360ba55",
+        "created_at": "2023-08-05T19:22:04.889Z",
+        "updated_at": "2023-08-05T18:25:03.422Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0efbdcfe-3a60-4493-93ba-92a9f6f69e6c",
+        "created_at": "2023-08-05T21:53:48.809Z",
+        "updated_at": "2023-08-05T19:32:57.318Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "9d9c8583-ebd2-480c-8277-e6cda0bf8511",
+        "created_at": "2023-08-06T02:12:39.245Z",
+        "updated_at": "2023-08-05T20:19:38.292Z",
+        "cart_id": "0efbdcfe-3a60-4493-93ba-92a9f6f69e6c",
+        "product_id": "c5741249-ca71-4a68-9869-d8ca29f4568b"
+      },
+      {
+        "id": "83815603-b1aa-4030-9d4d-0a9bbb2d78b4",
+        "created_at": "2023-08-06T08:48:36.714Z",
+        "updated_at": "2023-08-05T20:52:51.994Z",
+        "cart_id": "0efbdcfe-3a60-4493-93ba-92a9f6f69e6c",
+        "product_id": "c5741249-ca71-4a68-9869-d8ca29f4568b"
+      },
+      {
+        "id": "dc974697-abac-4be5-889d-ab9d7664ce73",
+        "created_at": "2023-08-06T05:30:23.889Z",
+        "updated_at": "2023-08-06T02:45:20.601Z",
+        "cart_id": "d5ce80d2-e725-4cd9-873a-5efca97b8eeb",
+        "product_id": "c5741249-ca71-4a68-9869-d8ca29f4568b"
+      },
+      {
+        "id": "0b6b0fbc-e762-4ed6-b33d-7cd2189836c1",
+        "created_at": "2023-08-05T17:07:29.909Z",
+        "updated_at": "2023-08-06T11:48:54.667Z",
+        "cart_id": "d5ce80d2-e725-4cd9-873a-5efca97b8eeb",
+        "product_id": "c5741249-ca71-4a68-9869-d8ca29f4568b"
+      },
+      {
+        "id": "a26fda0c-227e-4992-8368-18bf80187a35",
+        "created_at": "2023-08-06T03:14:38.768Z",
+        "updated_at": "2023-08-06T08:27:17.102Z",
+        "cart_id": "0efbdcfe-3a60-4493-93ba-92a9f6f69e6c",
+        "product_id": "6f14a2a0-3397-4691-b870-f2a72e90fcd1"
+      }
+    ]
+  },
+  {
+    "shop": [
+      {
+        "id": "3253748d-45f1-45a6-9c2b-835d9153730d",
+        "name": "The Fashion Spot",
+        "description": "A trendy fashion store",
+        "created_at": "2023-08-06T07:37:00.624Z",
+        "updated_at": "2023-08-06T02:28:29.827Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "06ba657e-9637-4db8-9a54-b0fea04c0c17",
+        "name": "Home Decor Haven",
+        "description": "Find the perfect home decor items",
+        "created_at": "2023-08-05T17:23:53.627Z",
+        "updated_at": "2023-08-05T17:52:39.246Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "b7f62414-bb8b-4698-89ca-483dae315482",
+        "name": "Gourmet Delights",
+        "description": "Delicious gourmet food products",
+        "created_at": "2023-08-06T05:53:49.364Z",
+        "updated_at": "2023-08-05T20:57:27.960Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "77a14fe6-c5a5-45d2-9b96-bf11576021bc",
+        "name": "Tech World",
+        "description": "Explore the latest tech gadgets",
+        "created_at": "2023-08-06T11:12:21.552Z",
+        "updated_at": "2023-08-06T04:53:47.773Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "5bb7b32e-42dc-4e05-b4d3-d5f868cdcb7c",
+        "name": "Sports Zone",
+        "description": "Everything for sports enthusiasts",
+        "created_at": "2023-08-06T03:05:46.274Z",
+        "updated_at": "2023-08-06T02:13:38.801Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "dd18d605-9836-4646-a6c3-f0382b157ce3",
+        "name": "Stylish Watch",
+        "description": "A fashionable accessory for any occasion",
+        "price": 15989,
+        "created_at": "2023-08-06T14:27:32.690Z",
+        "updated_at": "2023-08-05T23:00:02.513Z",
+        "shop_id": "06ba657e-9637-4db8-9a54-b0fea04c0c17"
+      },
+      {
+        "id": "6ce02cda-a7c3-4318-b91e-64b0c823cc28",
+        "name": "Cozy Blanket",
+        "description": "Stay warm and comfortable with this soft blanket",
+        "price": 63345,
+        "created_at": "2023-08-06T09:34:40.215Z",
+        "updated_at": "2023-08-06T06:41:04.362Z",
+        "shop_id": "77a14fe6-c5a5-45d2-9b96-bf11576021bc"
+      },
+      {
+        "id": "121bd885-6b27-4625-bd27-ed2c4c849499",
+        "name": "Gourmet Coffee",
+        "description": "Indulge in the rich flavors of this premium coffee",
+        "price": 50486,
+        "created_at": "2023-08-06T06:54:34.290Z",
+        "updated_at": "2023-08-06T06:55:53.765Z",
+        "shop_id": "b7f62414-bb8b-4698-89ca-483dae315482"
+      },
+      {
+        "id": "7d4336ac-67c2-4949-a00f-12e577630f9f",
+        "name": "Smartphone",
+        "description": "Experience the latest technology with this smartphone",
+        "price": 14949,
+        "created_at": "2023-08-06T10:48:17.614Z",
+        "updated_at": "2023-08-06T09:34:17.146Z",
+        "shop_id": "3253748d-45f1-45a6-9c2b-835d9153730d"
+      },
+      {
+        "id": "e51159d1-fcd6-4194-a322-ff678c4e1409",
+        "name": "Sports Shoes",
+        "description": "Enhance your performance with these high-quality sports shoes",
+        "price": 37865,
+        "created_at": "2023-08-06T16:27:29.822Z",
+        "updated_at": "2023-08-05T17:58:34.629Z",
+        "shop_id": "06ba657e-9637-4db8-9a54-b0fea04c0c17"
+      }
+    ],
+    "rating": [
+      {
+        "id": "419de63d-8120-4eb0-939a-fb57234a3b60",
+        "score": 14430,
+        "created_at": "2023-08-06T13:15:19.397Z",
+        "updated_at": "2023-08-06T16:05:21.142Z",
+        "product_id": "121bd885-6b27-4625-bd27-ed2c4c849499",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43c4c397-d446-4c4d-a572-c069bba7f9c6",
+        "score": 51962,
+        "created_at": "2023-08-06T02:54:09.692Z",
+        "updated_at": "2023-08-05T23:22:26.411Z",
+        "product_id": "6ce02cda-a7c3-4318-b91e-64b0c823cc28",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e99fca31-7a05-4b1b-99c3-ecdffeae8d35",
+        "score": 46630,
+        "created_at": "2023-08-05T23:47:22.064Z",
+        "updated_at": "2023-08-05T18:56:53.349Z",
+        "product_id": "7d4336ac-67c2-4949-a00f-12e577630f9f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "300e172a-d4aa-4774-bf36-d803cad7e1bc",
+        "score": 8259,
+        "created_at": "2023-08-05T22:03:47.193Z",
+        "updated_at": "2023-08-05T22:23:43.471Z",
+        "product_id": "7d4336ac-67c2-4949-a00f-12e577630f9f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "794ab4dc-c99f-457a-b89c-cd87912703a3",
+        "score": 23892,
+        "created_at": "2023-08-05T23:15:38.216Z",
+        "updated_at": "2023-08-06T10:36:34.081Z",
+        "product_id": "7d4336ac-67c2-4949-a00f-12e577630f9f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "7ce5d95a-4417-4cf1-80a9-7659a561fc0f",
+        "created_at": "2023-08-05T19:54:27.738Z",
+        "updated_at": "2023-08-05T17:07:03.747Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3133049d-eb88-45b6-87e7-a2e3d88e5195",
+        "created_at": "2023-08-06T11:07:30.843Z",
+        "updated_at": "2023-08-06T09:09:55.213Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "435fd77c-7d71-4b6f-8bba-71eec341f71d",
+        "created_at": "2023-08-06T05:15:53.657Z",
+        "updated_at": "2023-08-06T02:37:16.552Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec39496f-34d6-4de3-a607-71f2c5c8a4f2",
+        "created_at": "2023-08-06T09:56:51.005Z",
+        "updated_at": "2023-08-06T03:52:13.380Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "384acba9-7c24-451a-85f1-243628561f9d",
+        "created_at": "2023-08-05T17:20:17.903Z",
+        "updated_at": "2023-08-06T13:29:08.083Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "878982b6-eb00-4756-a6ae-9032964ed17f",
+        "created_at": "2023-08-05T18:51:40.670Z",
+        "updated_at": "2023-08-06T03:04:11.358Z",
+        "cart_id": "ec39496f-34d6-4de3-a607-71f2c5c8a4f2",
+        "product_id": "dd18d605-9836-4646-a6c3-f0382b157ce3"
+      },
+      {
+        "id": "d4553381-ff37-4507-920a-49796dc6baf1",
+        "created_at": "2023-08-06T16:49:31.104Z",
+        "updated_at": "2023-08-06T02:56:36.834Z",
+        "cart_id": "7ce5d95a-4417-4cf1-80a9-7659a561fc0f",
+        "product_id": "121bd885-6b27-4625-bd27-ed2c4c849499"
+      },
+      {
+        "id": "2dfcbd8d-7f32-4e36-ad3d-16c6e4bc2d14",
+        "created_at": "2023-08-05T17:35:51.268Z",
+        "updated_at": "2023-08-06T16:25:39.553Z",
+        "cart_id": "435fd77c-7d71-4b6f-8bba-71eec341f71d",
+        "product_id": "6ce02cda-a7c3-4318-b91e-64b0c823cc28"
+      },
+      {
+        "id": "18068f5d-db7a-484e-ab04-872b3390fbe1",
+        "created_at": "2023-08-06T10:10:19.961Z",
+        "updated_at": "2023-08-06T05:49:39.549Z",
+        "cart_id": "3133049d-eb88-45b6-87e7-a2e3d88e5195",
+        "product_id": "dd18d605-9836-4646-a6c3-f0382b157ce3"
+      },
+      {
+        "id": "39fb4a71-cd57-491a-98e4-919208c455ed",
+        "created_at": "2023-08-06T14:28:04.281Z",
+        "updated_at": "2023-08-06T02:31:31.016Z",
+        "cart_id": "3133049d-eb88-45b6-87e7-a2e3d88e5195",
+        "product_id": "121bd885-6b27-4625-bd27-ed2c4c849499"
+      }
+    ]
+  },
+  {
+    "shop": [
+      {
+        "id": "94c6dd20-bbf3-4b3b-a5ed-80d240f2f734",
+        "name": "The Fashion Spot",
+        "description": "A trendy fashion store",
+        "created_at": "2023-08-05T22:02:09.157Z",
+        "updated_at": "2023-08-05T21:52:17.305Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "a67c1e86-15e3-4ade-9bb6-6cb363dd7245",
+        "name": "Home Decor Haven",
+        "description": "Find the perfect home decor items",
+        "created_at": "2023-08-05T19:11:03.945Z",
+        "updated_at": "2023-08-06T13:36:52.291Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "ce3cb9fe-91b3-4011-bd53-898334d3ba47",
+        "name": "Gourmet Delights",
+        "description": "Delicious gourmet food products",
+        "created_at": "2023-08-06T13:27:11.504Z",
+        "updated_at": "2023-08-05T22:47:57.828Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "cc9b54f2-851c-48db-8189-5ee698b7127c",
+        "name": "Tech World",
+        "description": "Explore the latest tech gadgets",
+        "created_at": "2023-08-06T04:02:55.867Z",
+        "updated_at": "2023-08-06T16:49:35.275Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "52ef29f0-fd56-44fc-916f-96ca84b502db",
+        "name": "Sports Zone",
+        "description": "Everything for sports enthusiasts",
+        "created_at": "2023-08-06T00:58:04.005Z",
+        "updated_at": "2023-08-05T19:17:06.078Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "3d067de9-d807-4d89-9499-9bdc9a9f5ff5",
+        "name": "Stylish Watch",
+        "description": "A fashionable accessory for any occasion",
+        "price": 39710,
+        "created_at": "2023-08-06T06:32:46.538Z",
+        "updated_at": "2023-08-05T18:50:45.594Z",
+        "shop_id": "94c6dd20-bbf3-4b3b-a5ed-80d240f2f734"
+      },
+      {
+        "id": "9584ca56-f219-4962-9a68-472241d05f33",
+        "name": "Cozy Blanket",
+        "description": "Stay warm and comfortable with this soft blanket",
+        "price": 7067,
+        "created_at": "2023-08-05T18:24:09.160Z",
+        "updated_at": "2023-08-06T02:07:37.808Z",
+        "shop_id": "52ef29f0-fd56-44fc-916f-96ca84b502db"
+      },
+      {
+        "id": "76d58893-a46e-4df5-a304-570fd318e6af",
+        "name": "Gourmet Coffee",
+        "description": "Indulge in the rich flavors of this premium coffee",
+        "price": 95051,
+        "created_at": "2023-08-05T20:38:54.545Z",
+        "updated_at": "2023-08-06T12:18:17.025Z",
+        "shop_id": "94c6dd20-bbf3-4b3b-a5ed-80d240f2f734"
+      },
+      {
+        "id": "a6d92eac-ee84-4d6a-aa54-acbabe0ec0d8",
+        "name": "Wireless Headphones",
+        "description": "Enjoy wireless music with high-quality sound",
+        "price": 67131,
+        "created_at": "2023-08-06T02:36:32.873Z",
+        "updated_at": "2023-08-06T06:34:27.587Z",
+        "shop_id": "a67c1e86-15e3-4ade-9bb6-6cb363dd7245"
+      },
+      {
+        "id": "41228d77-3565-4569-8f07-5c0bcf4102cb",
+        "name": "Fitness Tracker",
+        "description": "Track your fitness goals with this advanced device",
+        "price": 72246,
+        "created_at": "2023-08-06T01:44:55.540Z",
+        "updated_at": "2023-08-05T20:41:12.804Z",
+        "shop_id": "ce3cb9fe-91b3-4011-bd53-898334d3ba47"
+      }
+    ],
+    "rating": [
+      {
+        "id": "95d97b44-632b-4e2d-b5b8-16918835d65e",
+        "score": 55820,
+        "created_at": "2023-08-06T08:00:20.717Z",
+        "updated_at": "2023-08-06T02:39:34.887Z",
+        "product_id": "76d58893-a46e-4df5-a304-570fd318e6af",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4627f5b3-cc44-4487-819f-811bc6a1a19a",
+        "score": 85829,
+        "created_at": "2023-08-06T08:41:36.449Z",
+        "updated_at": "2023-08-06T03:16:17.553Z",
+        "product_id": "76d58893-a46e-4df5-a304-570fd318e6af",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06a829ce-099c-4672-8181-14a80bf6b65e",
+        "score": 10635,
+        "created_at": "2023-08-06T12:48:30.578Z",
+        "updated_at": "2023-08-05T20:38:51.832Z",
+        "product_id": "a6d92eac-ee84-4d6a-aa54-acbabe0ec0d8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6242f57-1660-45ab-af29-7a366470eb8e",
+        "score": 38055,
+        "created_at": "2023-08-06T12:51:49.076Z",
+        "updated_at": "2023-08-06T13:00:23.874Z",
+        "product_id": "3d067de9-d807-4d89-9499-9bdc9a9f5ff5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "849460c7-f05e-4ef9-a926-43d6d3e8e9b2",
+        "score": 95715,
+        "created_at": "2023-08-05T22:25:36.457Z",
+        "updated_at": "2023-08-05T19:51:29.588Z",
+        "product_id": "3d067de9-d807-4d89-9499-9bdc9a9f5ff5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart": [
+      {
+        "id": "e3e6db4b-08c5-4681-ad96-5ba3e7d06a6d",
+        "created_at": "2023-08-06T16:03:59.710Z",
+        "updated_at": "2023-08-06T00:51:30.996Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69fcdde3-06e2-4d50-a81f-b6ab71036c68",
+        "created_at": "2023-08-06T10:24:17.867Z",
+        "updated_at": "2023-08-06T10:28:06.943Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13775127-1106-44c3-8389-1549e77a4cd4",
+        "created_at": "2023-08-06T02:38:48.258Z",
+        "updated_at": "2023-08-06T09:14:43.948Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "36153616-d127-49f2-918b-5d8478f2254a",
+        "created_at": "2023-08-05T22:09:24.764Z",
+        "updated_at": "2023-08-06T14:38:04.576Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d73011b7-d165-408e-992e-118b28c6b30e",
+        "created_at": "2023-08-06T10:11:56.826Z",
+        "updated_at": "2023-08-06T06:54:45.449Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cart_item": [
+      {
+        "id": "6c9bf413-628c-4f1b-9ea8-4c9973430a8c",
+        "created_at": "2023-08-06T06:17:28.253Z",
+        "updated_at": "2023-08-06T15:36:51.960Z",
+        "cart_id": "d73011b7-d165-408e-992e-118b28c6b30e",
+        "product_id": "41228d77-3565-4569-8f07-5c0bcf4102cb"
+      },
+      {
+        "id": "a75ee436-3cfe-4011-9e89-8d89525fc0a7",
+        "created_at": "2023-08-06T01:44:41.621Z",
+        "updated_at": "2023-08-05T17:17:14.467Z",
+        "cart_id": "e3e6db4b-08c5-4681-ad96-5ba3e7d06a6d",
+        "product_id": "9584ca56-f219-4962-9a68-472241d05f33"
+      },
+      {
+        "id": "19c916b5-4da8-43e3-950b-f905549f503d",
+        "created_at": "2023-08-06T09:50:35.774Z",
+        "updated_at": "2023-08-06T06:49:03.415Z",
+        "cart_id": "13775127-1106-44c3-8389-1549e77a4cd4",
+        "product_id": "41228d77-3565-4569-8f07-5c0bcf4102cb"
+      },
+      {
+        "id": "f5e6a3d4-5357-45ef-b568-0f0ab85a0f53",
+        "created_at": "2023-08-06T16:50:23.067Z",
+        "updated_at": "2023-08-05T19:55:57.148Z",
+        "cart_id": "e3e6db4b-08c5-4681-ad96-5ba3e7d06a6d",
+        "product_id": "76d58893-a46e-4df5-a304-570fd318e6af"
+      },
+      {
+        "id": "641105de-e729-4184-bd0c-6a69ce98bd1a",
+        "created_at": "2023-08-05T21:00:06.619Z",
+        "updated_at": "2023-08-06T15:26:06.606Z",
+        "cart_id": "69fcdde3-06e2-4d50-a81f-b6ab71036c68",
+        "product_id": "3d067de9-d807-4d89-9499-9bdc9a9f5ff5"
+      }
+    ]
+  }
+]
